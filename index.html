@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>
     body {
       background-image: url("hatter.gif");
@@ -14,7 +15,6 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      flex-direction: column;
     }
     .button {
       margin: 10px;
@@ -30,9 +30,15 @@
 </head>
 <body>
   <div class="container">
-    <a class="button" href="https://www.instagram.com">Instagram</a>
-    <a class="button" href="https://www.twitch.tv">Twitch</a>
-    <a class="button" href="https://store.steampowered.com">Steam</a>
+    <div class="d-flex justify-content-center">
+      <a class="button btn btn-primary" href="https://www.instagram.com">Instagram</a>
+      <a class="button btn btn-primary" href="https://www.twitch.tv">Twitch</a>
+      <a class="button btn btn-primary" href="https://store.steampowered.com">Steam</a>
+    </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
