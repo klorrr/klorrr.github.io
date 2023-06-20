@@ -19,7 +19,7 @@
       justify-content: center;
       flex-direction: column;
     }
-     .video-background {
+    .video-background {
       position: fixed;
       top: 0;
       left: 0;
@@ -30,10 +30,15 @@
     }
     .button-container {
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       z-index: 1;
+    }
+    .button-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     .button {
       margin: 10px;
@@ -61,9 +66,11 @@
     </video>
     <div class="title">kloRRR</div>
     <div class="button-container">
-      <a class="button btn btn-primary" href="https://www.instagram.com">Instagram</a>
-      <a class="button btn btn-primary" href="https://www.twitch.tv">Twitch</a>
-      <a class="button btn btn-primary" href="https://store.steampowered.com">Steam</a>
+      <div class="button-group">
+        <a class="button btn btn-primary" href="https://www.instagram.com">Instagram</a>
+        <a class="button btn btn-primary" href="https://www.twitch.tv">Twitch</a>
+        <a class="button btn btn-primary" href="https://store.steampowered.com">Steam</a>
+      </div>
     </div>
   </div>
 
