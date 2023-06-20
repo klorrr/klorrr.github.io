@@ -1,25 +1,25 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #000;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
 }
 
 h1 {
-    position: relative;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(20px + 5vw);
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.15em #1da9cc;
-    user-select: none;
-    white-space: nowrap;
-    filter: blur(0.007em);
-    animation: shake 2.5s linear forwards;
+  position: relative;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: calc(20px + 5vw);
+  font-weight: 700;
+  color: #fff; /* Fehér szín */
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.15em #fff; /* Fehér árnyék */
+  user-select: none;
+  white-space: nowrap;
+  filter: blur(0.007em);
+  animation: shake 2.5s linear forwards;
 }
 
 h1 span {
