@@ -2,20 +2,27 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>kloRRR</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <style>
     body {
-      background-image: url("asdad.mp4");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      overflow: hidden;
     }
     .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      position: relative;
       height: 100vh;
+    }
+    .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .button-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     .button {
       margin: 10px;
@@ -31,7 +38,10 @@
 </head>
 <body>
   <div class="container">
-    <div class="d-flex justify-content-center">
+    <div class="video-background">
+      <iframe src="asdad.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="button-container">
       <a class="button btn btn-primary" href="https://www.instagram.com">Instagram</a>
       <a class="button btn btn-primary" href="https://www.twitch.tv">Twitch</a>
       <a class="button btn btn-primary" href="https://store.steampowered.com">Steam</a>
