@@ -12,7 +12,9 @@ h1 {
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: calc(80px + 20vw); /* Nagyobb betűméret */
   font-weight: 700;
+   font-size: calc(60px + 20vw); /* Nagyobb betűméret */
   color: #fff; /* Fehér szín */
+  text-shadow: 0 0 0.3em #1da9cc; 
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-shadow: 0 0 0.15em #1da9cc;
